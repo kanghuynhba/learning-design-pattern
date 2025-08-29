@@ -3,10 +3,17 @@ package com.hbk.book_market.factory.impl;
 import com.hbk.book_market.entity.Author;
 import com.hbk.book_market.entity.Category;
 import com.hbk.book_market.entity.Book;
+
 import com.hbk.book_market.factory.EntityFactory;
 import com.hbk.book_market.factory.AuthorFactory;
 import com.hbk.book_market.factory.CategoryFactory;
 import com.hbk.book_market.factory.BookFactory;
+
+
+import com.hbk.book_market.builder.Builder;
+import com.hbk.book_market.builder.AuthorBuilder;
+import com.hbk.book_market.builder.CategoryBuilder;
+import com.hbk.book_market.builder.BookBuilder;
 
 import com.hbk.book_market.factory.impl.AuthorFactoryImpl;
 import com.hbk.book_market.factory.impl.CategoryFactoryImpl;
@@ -31,4 +38,21 @@ public class EntityFactoryImpl implements EntityFactory {
             "there is no factory for: " + entityType         
         );
     } 
+
+    @SuppressWarnings("unchecked")
+    @Override
+    public <E, B extends Builder<E>> B newEntityBuilder(Class<B> builderType) {
+        if(builderType==AuthorBuilder.class) {
+            return (B) authorFactory.newAuthorBuilder();
+        } 
+        if(builderType==CategoryBuilder.class) {
+            return (B) categoryFactory.newCategoryBuilder();
+        }
+        if(builderType==BookBuilder.class) {
+            return (B) bookFactory.newBookBuilder();
+        }
+        throw new IllegalArgumentException(
+            "there is no builder for: " + builderType 
+        );
+    }
 }
