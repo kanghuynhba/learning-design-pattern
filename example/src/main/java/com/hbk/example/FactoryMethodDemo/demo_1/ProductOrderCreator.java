@@ -1,6 +1,6 @@
-package FactoryMethodDemo;
+package FactoryMethodDemo.demo_1;
 
-import FactoryMethodDemo.Product;
+import FactoryMethodDemo.demo_1.Product;
 
 // Abstract Class Creator
 public abstract class ProductOrderCreator {

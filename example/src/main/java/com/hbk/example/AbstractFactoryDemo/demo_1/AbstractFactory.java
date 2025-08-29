@@ -1,8 +1,8 @@
-package AbstractFactoryDemo;
+package AbstractFactoryDemo.demo_1;
 
-import AbstractFactoryDemo.factory.impl.GraphicsFactoryImpl;
-import AbstractFactoryDemo.factory.GraphicsFactory;
-import AbstractFactoryDemo.Graphics;
+import AbstractFactoryDemo.demo_1.factory.impl.GraphicsFactoryImpl;
+import AbstractFactoryDemo.demo_1.factory.GraphicsFactory;
+import AbstractFactoryDemo.demo_1.Graphics;
 
 public class AbstractFactory {
     public static void main(String []main) {

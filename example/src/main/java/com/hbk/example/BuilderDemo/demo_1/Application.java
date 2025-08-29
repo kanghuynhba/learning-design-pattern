@@ -1,4 +1,4 @@
-package BuilderDemo;
+package BuilderDemo.demo_1;
 
 import lombok.ToString;
 import lombok.Setter;

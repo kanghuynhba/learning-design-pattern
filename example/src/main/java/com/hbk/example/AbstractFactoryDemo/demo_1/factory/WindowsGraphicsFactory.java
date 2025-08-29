@@ -1,7 +1,7 @@
-package AbstractFactoryDemo.factory;
+package AbstractFactoryDemo.demo_1.factory;
 
-import AbstractFactoryDemo.Graphics; 
-import AbstractFactoryDemo.WindowsGraphics; 
+import AbstractFactoryDemo.demo_1.Graphics; 
+import AbstractFactoryDemo.demo_1.WindowsGraphics; 
 
 public class WindowsGraphicsFactory implements GraphicsFactory {
     @Override

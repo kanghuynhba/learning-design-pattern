@@ -1,7 +1,7 @@
-package FactoryMethodDemo;
+package FactoryMethodDemo.demo_1;
 
-import FactoryMethodDemo.ProductOrderCreator;
-import FactoryMethodDemo.Product;
+import FactoryMethodDemo.demo_1.ProductOrderCreator;
+import FactoryMethodDemo.demo_1.Product;
 
 public class ProductOrderCreatorImpl extends ProductOrderCreator {
     private static final long DEFAULT_PRICE = 1000;

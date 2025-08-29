@@ -1,7 +1,7 @@
-package AbstractFactoryDemo.factory;
+package AbstractFactoryDemo.demo_1.factory;
 
-import AbstractFactoryDemo.Graphics; 
-import AbstractFactoryDemo.UbuntuGraphics; 
+import AbstractFactoryDemo.demo_1.Graphics; 
+import AbstractFactoryDemo.demo_1.UbuntuGraphics; 
 
 public class UbuntuGraphicsFactory implements GraphicsFactory {
     @Override
