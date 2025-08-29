@@ -1,4 +1,4 @@
-package FactoryMethodDemo;
+package FactoryMethodDemo.demo_1;
 
 public class FactoryMethod {
     public static void main(String[] args) {

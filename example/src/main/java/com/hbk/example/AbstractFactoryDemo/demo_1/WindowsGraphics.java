@@ -1,4 +1,4 @@
-package AbstractFactoryDemo;
+package AbstractFactoryDemo.demo_1;
 
 public class WindowsGraphics implements Graphics {
     @Override

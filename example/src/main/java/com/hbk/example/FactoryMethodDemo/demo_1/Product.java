@@ -1,4 +1,4 @@
-package FactoryMethodDemo;
+package FactoryMethodDemo.demo_1;
 
 import lombok.Data;
 

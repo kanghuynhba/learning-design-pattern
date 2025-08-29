@@ -1,4 +1,4 @@
-package FactoryMethodDemo;
+package FactoryMethodDemo.demo_1;
 
 public class PricedProduct extends Product {
     @Override

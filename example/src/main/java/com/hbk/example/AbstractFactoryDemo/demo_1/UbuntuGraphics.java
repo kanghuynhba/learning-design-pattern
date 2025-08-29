@@ -1,4 +1,4 @@
-package AbstractFactoryDemo;
+package AbstractFactoryDemo.demo_1;
 
 public class UbuntuGraphics implements Graphics {
     @Override
