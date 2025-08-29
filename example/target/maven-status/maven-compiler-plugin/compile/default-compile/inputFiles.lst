@@ -1,6 +1,7 @@
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/WindowsGraphics.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_2/Square.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/AbstractFactory.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/Shape.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_1/PricedProduct.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_1/Product.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_2/MainClass.java
@@ -11,8 +12,12 @@
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/FreeProduct.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_1/Factory.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/Product.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/factory/FactoryProducer.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/ProductOrderCreator.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/factory/ShapeFactory.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/factory/GraphicsFactory.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/Rectangle.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/factory/AbstractFactory.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_1/Application.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_2/ShapeFactory.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/FactoryMethod.java
@@ -21,5 +26,10 @@
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/factory/impl/GraphicsFactoryImpl.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/Graphics.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_2/Retangle.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/AbstractFactoryMethod.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/RoundedRectangle.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/RoundedSquare.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/factory/UbuntuGraphicsFactory.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/Square.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/UbuntuGraphics.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_2/factory/RoundedFactory.java
