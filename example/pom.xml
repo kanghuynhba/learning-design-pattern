@@ -1,18 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hbk.example</groupId>
+  <artifactId>example</artifactId>
 
-  <groupId>com.hbk</groupId>
-  <artifactId>book_market</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>book_market</name>
+  <name>example</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <junit.version>4.12</junit.version>
-    <mysql.connector.version>8.0.28</mysql.connector.version>
     <lombok.version>1.18.32</lombok.version>
   </properties>
 
@@ -28,11 +27,6 @@
       <artifactId>lombok</artifactId>
       <version>${lombok.version}</version> 
       <scope>provided</scope>
-  </dependency>
-  <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>${mysql.connector.version}</version> 
-  </dependency>
+    </dependency>
   </dependencies>
 </project>
