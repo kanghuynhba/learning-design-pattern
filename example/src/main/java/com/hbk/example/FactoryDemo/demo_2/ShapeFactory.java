@@ -6,7 +6,7 @@ public class ShapeFactory {
             case "CIRCLE":
                 return new Circle();
             case "RETANGLE":
-                return new Retangle();
+                return new Rectangle();
             case "SQUARE":
                 return new Square();
             default:

@@ -1,0 +1,27 @@
+package PrototypeDemo.demo_1;
+
+import java.util.HashTable;
+
+public class ShapeCache {
+    private static HashTable<String, Shape> shapeMap=new HashTable<String, Shape>();
+
+    public static Shape getShape(String shapeId) {
+        Shape cachedShape=shapeMap.get(shapeId);
+        return (Shape) cachedShape;
+    }
+
+    public static void loadCache() {
+        // Ex:
+        Circle circle = new Circle();
+        circle.setId("1");
+        shapeMap.put(circle.getId(), circle);
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.setId("2");
+        shapeMap.put(rectangle.getId(), rectangle);
+
+        Square square = new Square();
+        square.setId("3");
+        shapeMap.put(square.getId(), square);
+    }
+} 
