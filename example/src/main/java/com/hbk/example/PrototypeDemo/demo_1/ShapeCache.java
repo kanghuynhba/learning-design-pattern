@@ -1,9 +1,9 @@
 package PrototypeDemo.demo_1;
 
-import java.util.HashTable;
+import java.util.Hashtable;
 
 public class ShapeCache {
-    private static HashTable<String, Shape> shapeMap=new HashTable<String, Shape>();
+    private static Hashtable<String, Shape> shapeMap=new Hashtable<String, Shape>();
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape=shapeMap.get(shapeId);

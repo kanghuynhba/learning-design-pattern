@@ -8,7 +8,6 @@
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/PrototypeDemo/demo_1/Rectangle.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/ProductOrderCreatorImpl.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryMethodDemo/demo_1/FreeProduct.java
-/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/PrototypeDemo/demo_1/Prototye.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_2/entity/ColdDrink.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/PrototypeDemo/demo_1/ShapeCache.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/factory/GraphicsFactory.java
@@ -43,6 +42,7 @@
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_1/Application.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_2/MealBuilder.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/FactoryDemo/demo_2/ShapeFactory.java
+/home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/PrototypeDemo/demo_1/Prototype.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_2/entity/product/Coke.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/AbstractFactoryDemo/demo_1/Graphics.java
 /home/khang/Workspace/projects/java-projects/design-pattern/demo/example/src/main/java/com/hbk/example/BuilderDemo/demo_2/Builder.java
