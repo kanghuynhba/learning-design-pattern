@@ -4,6 +4,7 @@ import com.hbk.book_market.BookApplication;
 import com.hbk.book_market.entity.Category;
 import com.hbk.book_market.factory.ConnectionFactory;
 import com.hbk.book_market.repository.CategoryRepository;
+import com.hbk.book_market.pool.ConnectionPool;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +17,11 @@ public class CategoryRepositoryImpl implements CategoryRepository {
     @Override
     public void save(Category author) throws Exception {
         final String query = "INSERT INTO Category (name) VALUE(?)";
-        try (Connection connection=connectionFactory.newConnection()) {
+        final ConnectionPool connectionPool=BookApplication
+            .getInstance()
+            .getConnectionPool();
+        final Connection connection=connectionPool.provide();
+        try {
             try (
                     PreparedStatement statement=connection.prepareStatement(
                         query,
@@ -31,6 +36,8 @@ public class CategoryRepositoryImpl implements CategoryRepository {
                     }
                 }
             }
+        } finally {
+            connectionPool.pushBack(connection);
         }
     }
 }
