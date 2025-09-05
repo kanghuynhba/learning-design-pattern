@@ -12,7 +12,7 @@ public class ConnectionFactoryImpl implements ConnectionFactory {
        return DriverManager.getConnection(
            "jdbc:mysql://localhost:3306/book_market",
            "root",
-           "secret"
+           "131104"
         );
    }
 }

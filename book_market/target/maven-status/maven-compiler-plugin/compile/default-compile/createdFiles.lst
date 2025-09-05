@@ -12,6 +12,7 @@ com/hbk/book_market/builder/CategoryBuilder.class
 com/hbk/book_market/handler/ChainOfResponsibility.class
 com/hbk/book_market/request/AddCategoryRequest.class
 com/hbk/book_market/factory/BookFactory.class
+com/hbk/book_market/controller/ApiCategoryController.class
 com/hbk/book_market/repository/BookRepository.class
 com/hbk/book_market/builder/BookBuilder.class
 com/hbk/book_market/repository/impl/CategoryRepositoryImpl.class
@@ -31,6 +32,7 @@ com/hbk/book_market/BookApplication.class
 com/hbk/book_market/factory/EntityFactory.class
 com/hbk/book_market/handler/FirstVoidHandler.class
 com/hbk/book_market/repository/DatabaseContext.class
+com/hbk/book_market/controller/ApiAuthorController.class
 com/hbk/book_market/BookApplicationStartup.class
 com/hbk/book_market/request/AddAuthorRequest.class
 com/hbk/book_market/pool/ConnectionPool.class
@@ -38,4 +40,5 @@ com/hbk/book_market/factory/ConnectionFactory.class
 com/hbk/book_market/factory/impl/CategoryFactoryImpl.class
 com/hbk/book_market/factory/CategoryFactory.class
 com/hbk/book_market/repository/CategoryRepository.class
+com/hbk/book_market/controller/ApiBookController.class
 com/hbk/book_market/repository/AuthorRepository.class
