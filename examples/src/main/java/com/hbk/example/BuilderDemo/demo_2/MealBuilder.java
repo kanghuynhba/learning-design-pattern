@@ -1,6 +1,6 @@
-package BuilderDemo.demo_2;
+package com.hbk.example.BuilderDemo.demo_2;
 
-import BuilderDemo.demo_2.entity.product.*;
+import com.hbk.example.BuilderDemo.demo_2.entity.product.*;
 
 public class MealBuilder {
     public Meal prepareVegMeal() {

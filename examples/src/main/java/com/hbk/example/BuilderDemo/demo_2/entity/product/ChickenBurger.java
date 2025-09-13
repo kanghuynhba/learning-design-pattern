@@ -1,6 +1,6 @@
-package BuilderDemo.demo_2.entity.product;
+package com.hbk.example.BuilderDemo.demo_2.entity.product;
 
-import BuilderDemo.demo_2.entity.Burger;
+import com.hbk.example.BuilderDemo.demo_2.entity.Burger;
 
 public class ChickenBurger extends Burger {
    @Override

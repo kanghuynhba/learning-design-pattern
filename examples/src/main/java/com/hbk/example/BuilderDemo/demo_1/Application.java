@@ -1,4 +1,4 @@
-package BuilderDemo.demo_1;
+package com.hbk.example.BuilderDemo.demo_1;
 
 import lombok.ToString;
 import lombok.Setter;

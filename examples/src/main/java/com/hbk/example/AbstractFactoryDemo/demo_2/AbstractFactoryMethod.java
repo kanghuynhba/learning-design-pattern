@@ -1,7 +1,7 @@
-package AbstractFactoryDemo.demo_2;
+package com.hbk.example.AbstractFactoryDemo.demo_2;
 
-import AbstractFactoryDemo.demo_2.factory.FactoryProducer;
-import AbstractFactoryDemo.demo_2.factory.AbstractFactory;
+import com.hbk.example.AbstractFactoryDemo.demo_2.factory.FactoryProducer;
+import com.hbk.example.AbstractFactoryDemo.demo_2.factory.AbstractFactory;
 
 public class AbstractFactoryMethod {
    public static void main(String[] args) {

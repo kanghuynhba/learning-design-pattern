@@ -1,4 +1,4 @@
-package ObjectPoolDemo.demo_2;
+package com.hbk.example.ObjectPoolDemo.demo_2;
 
 public class ExportingTask implements Runnable {
 

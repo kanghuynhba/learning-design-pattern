@@ -1,4 +1,4 @@
-package FactoryDemo.demo_2;
+package com.hbk.example.FactoryDemo.demo_2;
 
 public class ShapeFactory {
     Shape getShape(String input) {

@@ -1,8 +1,8 @@
-package AbstractFactoryDemo.demo_2.factory;
+package com.hbk.example.AbstractFactoryDemo.demo_2.factory;
 
-import AbstractFactoryDemo.demo_2.Shape;
-import AbstractFactoryDemo.demo_2.Square;
-import AbstractFactoryDemo.demo_2.Rectangle;
+import com.hbk.example.AbstractFactoryDemo.demo_2.Shape;
+import com.hbk.example.AbstractFactoryDemo.demo_2.Square;
+import com.hbk.example.AbstractFactoryDemo.demo_2.Rectangle;
 
 public class ShapeFactory extends AbstractFactory {
     @Override

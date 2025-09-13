@@ -1,4 +1,4 @@
-package ChainOfResponsibilityDemo.demo_2.middleware;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware;
 
 // ConcreteHandler. Checks whether there are too many failed login requests.
 public class ThrottlingMiddleware extends Middleware {

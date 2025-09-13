@@ -1,9 +1,9 @@
-package AbstractFactoryDemo.demo_1.factory.impl;
+package com.hbk.example.AbstractFactoryDemo.demo_1.factory.impl;
 
-import AbstractFactoryDemo.demo_1.Graphics;
-import AbstractFactoryDemo.demo_1.factory.GraphicsFactory;
-import AbstractFactoryDemo.demo_1.factory.WindowsGraphicsFactory;
-import AbstractFactoryDemo.demo_1.factory.UbuntuGraphicsFactory;
+import com.hbk.example.AbstractFactoryDemo.demo_1.Graphics;
+import com.hbk.example.AbstractFactoryDemo.demo_1.factory.GraphicsFactory;
+import com.hbk.example.AbstractFactoryDemo.demo_1.factory.WindowsGraphicsFactory;
+import com.hbk.example.AbstractFactoryDemo.demo_1.factory.UbuntuGraphicsFactory;
 
 public class GraphicsFactoryImpl implements GraphicsFactory {
     private final GraphicsFactory windowsGraphicsFactory = new WindowsGraphicsFactory();

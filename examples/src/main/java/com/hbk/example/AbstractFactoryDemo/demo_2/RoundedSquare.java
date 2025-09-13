@@ -1,4 +1,4 @@
-package AbstractFactoryDemo.demo_2;
+package com.hbk.example.AbstractFactoryDemo.demo_2;
 
 public class RoundedSquare implements Shape {
     @Override 

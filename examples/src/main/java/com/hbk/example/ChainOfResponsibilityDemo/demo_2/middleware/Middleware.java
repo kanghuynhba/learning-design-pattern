@@ -1,4 +1,4 @@
-package ChainOfResponsibilityDemo.demo_2.middleware;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware;
 
 // Basic middleware class
 public abstract class Middleware {

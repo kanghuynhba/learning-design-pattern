@@ -1,4 +1,4 @@
-package ChainOfResponsibilityDemo.demo_2.middleware;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware;
 
 public class RoleCheckMiddleware extends Middleware {
     public boolean check(String email, String password) {

@@ -1,4 +1,4 @@
-package BuilderDemo.demo_3;
+package com.hbk.example.BuilderDemo.demo_3;
 
 public class OrderBuilder{
 
