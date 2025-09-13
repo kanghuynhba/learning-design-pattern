@@ -1,4 +1,4 @@
-package ChainOfResponsibilityDemo.demo_1;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_1;
 
 import java.util.List;
 import java.util.Arrays;

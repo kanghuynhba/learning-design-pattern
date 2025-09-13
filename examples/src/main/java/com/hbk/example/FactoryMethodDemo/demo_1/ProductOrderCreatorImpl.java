@@ -1,7 +1,7 @@
-package FactoryMethodDemo.demo_1;
+package com.hbk.example.FactoryMethodDemo.demo_1;
 
-import FactoryMethodDemo.demo_1.ProductOrderCreator;
-import FactoryMethodDemo.demo_1.Product;
+import com.hbk.example.FactoryMethodDemo.demo_1.ProductOrderCreator;
+import com.hbk.example.FactoryMethodDemo.demo_1.Product;
 
 public class ProductOrderCreatorImpl extends ProductOrderCreator {
     private static final long DEFAULT_PRICE = 1000;

@@ -1,4 +1,4 @@
-package AbstractFactoryDemo.demo_2.factory;
+package com.hbk.example.AbstractFactoryDemo.demo_2.factory;
 
 public class FactoryProducer {
     public static AbstractFactory getFactory(boolean rounded) {

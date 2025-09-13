@@ -1,10 +1,10 @@
-package ChainOfResponsibilityDemo.demo_2;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2;
 
-import ChainOfResponsibilityDemo.demo_2.middleware.Middleware;
-import ChainOfResponsibilityDemo.demo_2.middleware.ThrottlingMiddleware;
-import ChainOfResponsibilityDemo.demo_2.middleware.UserExistsMiddleware;
-import ChainOfResponsibilityDemo.demo_2.middleware.RoleCheckMiddleware;
-import ChainOfResponsibilityDemo.demo_2.server.Server;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware.Middleware;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware.ThrottlingMiddleware;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware.UserExistsMiddleware;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware.RoleCheckMiddleware;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.server.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

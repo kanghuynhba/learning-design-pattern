@@ -1,4 +1,4 @@
-package ObjectPoolDemo.demo_1;
+package com.hbk.example.ObjectPoolDemo.demo_1;
 
 import lombok.Getter;
 import lombok.AllArgsConstructor;

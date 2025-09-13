@@ -1,4 +1,4 @@
-package BuilderDemo.demo_2;
+package com.hbk.example.BuilderDemo.demo_2;
 
 public class Builder {
     public static void main(String[] args) {

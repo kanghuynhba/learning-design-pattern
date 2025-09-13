@@ -1,6 +1,6 @@
-package ChainOfResponsibilityDemo.demo_2.server;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2.server;
 
-import ChainOfResponsibilityDemo.demo_2.middleware.Middleware;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware.Middleware;
 
 import java.util.Map;
 import java.util.HashMap;

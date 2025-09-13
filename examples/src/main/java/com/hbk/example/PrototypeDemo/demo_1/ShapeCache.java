@@ -1,4 +1,4 @@
-package PrototypeDemo.demo_1;
+package com.hbk.example.PrototypeDemo.demo_1;
 
 import java.util.Hashtable;
 

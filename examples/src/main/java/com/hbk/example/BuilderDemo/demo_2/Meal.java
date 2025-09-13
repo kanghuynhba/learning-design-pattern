@@ -1,4 +1,4 @@
-package BuilderDemo.demo_2;
+package com.hbk.example.BuilderDemo.demo_2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package ChainOfResponsibilityDemo.demo_2.middleware;
+package com.hbk.example.ChainOfResponsibilityDemo.demo_2.middleware;
 
-import ChainOfResponsibilityDemo.demo_2.server.Server;
+import com.hbk.example.ChainOfResponsibilityDemo.demo_2.server.Server;
 
 // ConcreteHandler. Checks whether a user with the given credentials exists.
 public class UserExistsMiddleware extends Middleware {

@@ -1,4 +1,4 @@
-package ObjectPoolDemo.demo_3;
+package com.hbk.example.ObjectPoolDemo.demo_3;
 
 import java.sql.Connection;
 

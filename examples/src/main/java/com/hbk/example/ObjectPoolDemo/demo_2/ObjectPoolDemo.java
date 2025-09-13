@@ -1,4 +1,4 @@
-package ObjectPoolDemo.demo_2;
+package com.hbk.example.ObjectPoolDemo.demo_2;
 
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.ExecutorService;

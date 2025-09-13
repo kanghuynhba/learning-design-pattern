@@ -1,4 +1,4 @@
-package FactoryDemo.demo_1;
+package com.hbk.example.FactoryDemo.demo_1;
 
 public class FreeProduct extends Product {
     @Override

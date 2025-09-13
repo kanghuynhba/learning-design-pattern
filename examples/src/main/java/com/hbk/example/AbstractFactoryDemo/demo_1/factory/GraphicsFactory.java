@@ -1,6 +1,6 @@
-package AbstractFactoryDemo.demo_1.factory;
+package com.hbk.example.AbstractFactoryDemo.demo_1.factory;
 
-import AbstractFactoryDemo.demo_1.Graphics;
+import com.hbk.example.AbstractFactoryDemo.demo_1.Graphics;
 
 public interface GraphicsFactory {
     Graphics newGraphics();

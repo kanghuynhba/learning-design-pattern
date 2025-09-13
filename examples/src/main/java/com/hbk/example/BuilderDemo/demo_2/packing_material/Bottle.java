@@ -1,6 +1,6 @@
-package BuilderDemo.demo_2.packing_material;
+package com.hbk.example.BuilderDemo.demo_2.packing_material;
 
-import BuilderDemo.demo_2.Packing;
+import com.hbk.example.BuilderDemo.demo_2.Packing;
 
 public class Bottle implements Packing {
     @Override
