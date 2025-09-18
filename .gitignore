@@ -1,1 +1,36 @@
+# === Java ===
+# Compiled class files
 **/*.class
+
+# Log files
+*.log
+
+# === Maven ===
+# Build output
+/target/
+
+# === Gradle (if used) ===
+.gradle/
+/build/
+
+# === IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# === Environment / secrets ===
+**/.env
+**/sentry.properties
+
+# === JARs (only if you don’t want to track builds) ===
+# Ignore all packaged jars
+**/*.jar
+
