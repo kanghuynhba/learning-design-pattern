@@ -22,10 +22,6 @@ public class ConnectionFactoryImpl implements ConnectionFactory {
             .format("jdbc:mysql://%s:%s/%s", host, port, name);
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        return DriverManager.getConnection(
-           "jdbc:mysql://localhost:3306/book_market",
-            user,
-            password 
-        );
+        return DriverManager.getConnection(url, user, password);
    }
 }
