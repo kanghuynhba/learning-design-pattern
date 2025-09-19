@@ -8,6 +8,7 @@ import com.hbk.book_market.repository.DatabaseContext;
 import com.hbk.book_market.repository.impl.DatabaseContextImpl;
 import com.hbk.book_market.pool.ConnectionPool;
 import com.hbk.book_market.command.CommandProvider;
+import com.hbk.book_market.interpreter.InterpreterProvider;
 
 import lombok.Getter;
 
@@ -22,6 +23,9 @@ public final class BookApplication {
     private final CommandProvider commandProvider;
     @Getter
     private final ConnectionPool connectionPool;
+    @Getter
+    private final InterpreterProvider interpreterProvider;
+
     private static final BookApplication INSTANCE= null;
     private BookApplication() {
         entityFactory=new EntityFactoryImpl();
@@ -29,6 +33,7 @@ public final class BookApplication {
         databaseContext=new DatabaseContextImpl();
         connectionPool=new ConnectionPool();
         commandProvider=new CommandProvider();
+        interpreterProvider=new InterpreterProvider();
     }
     public static BookApplication getInstance() {
         if(INSTANCE == null) {

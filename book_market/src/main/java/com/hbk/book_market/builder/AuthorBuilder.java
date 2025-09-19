@@ -5,6 +5,7 @@ import com.hbk.book_market.entity.Author;
 public class AuthorBuilder implements Builder<Author> {
    private long id;
    private String name;
+   private String code;
 
    public AuthorBuilder id(long id) {
       this.id=id;
@@ -14,6 +15,11 @@ public class AuthorBuilder implements Builder<Author> {
    public AuthorBuilder name(String name) {
       this.name=name;
       return this;
+   }
+
+   public AuthorBuilder code(String code) {
+        this.code=code;
+        return this;
    }
 
    @Override 

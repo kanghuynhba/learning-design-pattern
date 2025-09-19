@@ -14,6 +14,7 @@ import com.hbk.book_market.repository.AuthorRepository;
 import com.hbk.book_market.handler.ChainOfResponsibility;
 import com.hbk.book_market.request.AddAuthorRequest;
 import com.hbk.book_market.response.AddAuthorResponse;
+import com.hbk.book_market.interpreter.AuthorCodeInterpreter;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -46,9 +47,15 @@ public class ApiAuthorController {
                 }
             })
             .addFirstHandle(() -> {
+                final String code=BookApplication
+                    .getInstance()
+                    .getInterpreterProvider()
+                    .getInterpreter(AuthorCodeInterpreter.class)
+                    .translate(request.getAuthorName());
                 final Author author = entityFactory
                     .newEntityBuilder(AuthorBuilder.class)
                     .name(request.getAuthorName())
+                    .code(code)
                     .build();
                 authorRepository.save(author);
                 return new AddAuthorResponse(author.getId());
