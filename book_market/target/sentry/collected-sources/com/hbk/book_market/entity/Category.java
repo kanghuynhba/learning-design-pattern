@@ -3,16 +3,14 @@ package com.hbk.book_market.entity;
 import lombok.Data;
 
 @Data
-public class Author implements Cloneable {
+public class Category implements Cloneable{
     private long id;
     private String name;
-    private String code;
 
     @Override
-    public Author clone() {
-        final Author clone=new Author();
+    public Category clone() {
+        final Category clone=new Category();
         clone.name=name;
         return clone;
     }
-    
 }

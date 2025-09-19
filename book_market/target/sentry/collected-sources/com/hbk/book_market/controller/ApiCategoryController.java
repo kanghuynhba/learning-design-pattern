@@ -7,14 +7,13 @@ import com.tvd12.ezyhttp.server.core.annotation.DoPost;
 import com.tvd12.ezyhttp.server.core.annotation.RequestBody;
 
 import com.hbk.book_market.BookApplication;
-import com.hbk.book_market.builder.AuthorBuilder;
-import com.hbk.book_market.entity.Author;
+import com.hbk.book_market.builder.CategoryBuilder;
+import com.hbk.book_market.entity.Category;
 import com.hbk.book_market.factory.EntityFactory;
-import com.hbk.book_market.repository.AuthorRepository;
+import com.hbk.book_market.repository.CategoryRepository;
 import com.hbk.book_market.handler.ChainOfResponsibility;
-import com.hbk.book_market.request.AddAuthorRequest;
-import com.hbk.book_market.response.AddAuthorResponse;
-import com.hbk.book_market.interpreter.AuthorCodeInterpreter;
+import com.hbk.book_market.request.AddCategoryRequest;
+import com.hbk.book_market.response.AddCategoryResponse;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -22,43 +21,37 @@ import java.util.HashMap;
 import static com.tvd12.ezyfox.io.EzyStrings.isBlank;
 
 @Controller("/api/v1")
-public class ApiAuthorController {
+public class ApiCategoryController {
     private final BookApplication bookApplication =
         BookApplication.getInstance();
     private final EntityFactory entityFactory =
         bookApplication.getEntityFactory();
-    private final AuthorRepository authorRepository =
+    private final CategoryRepository categoryRepository =
         bookApplication
             .getDatabaseContext()
-            .newRepository(Author.class);
+            .newRepository(Category.class);
 
-   @DoPost("/authors/add")
-   public ResponseEntity addAuthor(
-        @RequestBody AddAuthorRequest request
+   @DoPost("/categories/add")
+   public ResponseEntity addCategory(
+        @RequestBody AddCategoryRequest request
     ) {
         return new ChainOfResponsibility()
             .addFirstVoidHandler(() -> {
                 final Map<String, String> errors=new HashMap<>();
-                if(isBlank(request.getAuthorName())) {
-                    errors.put("authorName", "required");
+                if(isBlank(request.getCategoryName())) {
+                    errors.put("categoryName", "required");
                 }
                 if(!errors.isEmpty()) {
                     throw new HttpBadRequestException(errors);
                 }
             })
             .addFirstHandle(() -> {
-                final String code=BookApplication
-                    .getInstance()
-                    .getInterpreterProvider()
-                    .getInterpreter(AuthorCodeInterpreter.class)
-                    .translate(request.getAuthorName());
-                final Author author = entityFactory
-                    .newEntityBuilder(AuthorBuilder.class)
-                    .name(request.getAuthorName())
-                    .code(code)
+                final Category category = entityFactory
+                    .newEntityBuilder(CategoryBuilder.class)
+                    .name(request.getCategoryName())
                     .build();
-                authorRepository.save(author);
-                return new AddAuthorResponse(author.getId());
+                categoryRepository.save(category);
+                return new AddCategoryResponse(category.getId());
             })
             .handle();
     }
