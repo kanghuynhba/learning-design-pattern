@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="maven-antrun-" default="main">
-  <target name="main">
-    <exec output="/tmp/maven7663050633668485059cli" failOnError="true" executable="/bin/sh">
-      <arg value="-c" />
-      <arg value="/tmp/.sentry-cli1721661415468060889.exe --log-level=debug debug-files upload --type=jvm --org=khang-j4 --project=book_markets /home/khang/Workspace/projects/java-projects/design-patterns/demo/book_market/target/sentry/source-bundle" />
-    </exec>
-  </target>
-</project>
