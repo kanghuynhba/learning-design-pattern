@@ -10,5 +10,6 @@ public class BookApplicationStartup {
         EzyHttpApplicationBootstrap.start(
             BookApplicationStartup.class
         );
+        Sentry.captureMessage("Book Market app started!");
     }
 }
