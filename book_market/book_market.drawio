@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="Jox616BBbaNPBTk1cB_F">
-    <mxGraphModel dx="286" dy="201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,10 +157,13 @@
         <mxCell id="YSZIbyWijCrxY-abKOGK-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;implements&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-31" target="YSZIbyWijCrxY-abKOGK-27" edge="1">
           <mxGeometry x="0.1245" relative="1" as="geometry">
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="780" y="766" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YSZIbyWijCrxY-abKOGK-31" value="AuthorRepositoryImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" vertex="1">
-          <mxGeometry x="820" y="910" width="240" height="86" as="geometry">
+          <mxGeometry x="660" y="839.5" width="240" height="86" as="geometry">
             <mxRectangle x="1655" y="810" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -174,10 +177,14 @@
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YSZIbyWijCrxY-abKOGK-35" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-36" target="YSZIbyWijCrxY-abKOGK-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YSZIbyWijCrxY-abKOGK-36" value="CategoryRepositoryImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" vertex="1">
-          <mxGeometry x="1077.5" y="905.5" width="237.5" height="86" as="geometry">
+          <mxGeometry x="943" y="839.5" width="237.5" height="86" as="geometry">
             <mxRectangle x="1880" y="810" width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -190,11 +197,19 @@
         <mxCell id="YSZIbyWijCrxY-abKOGK-39" value="+ save(Category category): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YSZIbyWijCrxY-abKOGK-36" vertex="1">
           <mxGeometry y="60" width="237.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YSZIbyWijCrxY-abKOGK-40" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-41" target="YSZIbyWijCrxY-abKOGK-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YSZIbyWijCrxY-abKOGK-40" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325.8000000000002" y="890" as="sourcePoint" />
+            <mxPoint x="1363.25" y="766" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1326" y="838" />
+              <mxPoint x="1327" y="838" />
+              <mxPoint x="1327" y="766" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YSZIbyWijCrxY-abKOGK-41" value="BookRepositoryImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" vertex="1">
-          <mxGeometry x="1342.5" y="910" width="237.5" height="86" as="geometry">
+          <mxGeometry x="1210" y="839.5" width="237.5" height="86" as="geometry">
             <mxRectangle x="2120" y="810" width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -210,30 +225,26 @@
         <mxCell id="YSZIbyWijCrxY-abKOGK-45" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YSZIbyWijCrxY-abKOGK-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-41" edge="1">
+        <mxCell id="YSZIbyWijCrxY-abKOGK-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-29" edge="1">
           <mxGeometry x="0.6908" relative="1" as="geometry">
             <mxPoint x="1195" y="1195.5000000000002" as="sourcePoint" />
             <mxPoint x="1445" y="996" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1195" y="1170" />
               <mxPoint x="1195" y="1080" />
               <mxPoint x="1460" y="1080" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSZIbyWijCrxY-abKOGK-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-36" edge="1">
+        <mxCell id="YSZIbyWijCrxY-abKOGK-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-25" edge="1">
           <mxGeometry x="0.4385" y="-34" relative="1" as="geometry">
             <mxPoint x="1191.63" y="1195.5" as="sourcePoint" />
             <mxPoint x="1194.13" y="991.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1196" y="1190" />
-              <mxPoint x="1196" y="1190" />
-            </Array>
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSZIbyWijCrxY-abKOGK-48" value="new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-31" edge="1">
+        <mxCell id="YSZIbyWijCrxY-abKOGK-48" value="new" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="YSZIbyWijCrxY-abKOGK-12" source="YSZIbyWijCrxY-abKOGK-49" target="YSZIbyWijCrxY-abKOGK-27" edge="1">
           <mxGeometry x="-0.8902" relative="1" as="geometry">
             <mxPoint x="1195" y="1195.5000000000002" as="sourcePoint" />
             <mxPoint x="925" y="996" as="targetPoint" />
@@ -642,9 +653,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSZIbyWijCrxY-abKOGK-128" value="Application" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="2760" y="810" width="100" height="30" as="geometry">
-            <mxRectangle x="2760" y="810" width="1090" height="1460" as="alternateBounds" />
+        <mxCell id="YSZIbyWijCrxY-abKOGK-128" value="Application" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="810" width="1090" height="1460" as="geometry">
+            <mxRectangle x="2760" y="810" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YSZIbyWijCrxY-abKOGK-129" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="YSZIbyWijCrxY-abKOGK-128" source="YSZIbyWijCrxY-abKOGK-134" target="YSZIbyWijCrxY-abKOGK-142" edge="1">
