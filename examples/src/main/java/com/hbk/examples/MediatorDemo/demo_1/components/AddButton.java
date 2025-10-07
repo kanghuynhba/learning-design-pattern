@@ -1,12 +1,13 @@
 package com.hbk.examples.MediatorDemo.demo_1.components;
 
-// import com.hbk.examples.MediatorDemo.demo_1.mediator.Mediator;
+import com.hbk.examples.MediatorDemo.demo_1.mediator.Mediator;
+import com.hbk.examples.MediatorDemo.demo_1.mediator.Note;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class AddButton extends JButton implements Component {
-    // private Mediator mediator;
+    private Mediator mediator;
 
     public AddButton() {
         super("Add");
@@ -14,13 +15,13 @@ public class AddButton extends JButton implements Component {
 
     @Override 
     protected void fireActionPerformed(ActionEvent event) {
-        
+        mediator.addNewNote(new Note());                
     }
 
-    // @Override
-    // void setMediator(Mediator mediator) {
-    //     this.mediator=mediator;
-    // }
+    @Override
+    public void setMediator(Mediator mediator) {
+        this.mediator=mediator;
+    }
 
     @Override
     public String getName() {
