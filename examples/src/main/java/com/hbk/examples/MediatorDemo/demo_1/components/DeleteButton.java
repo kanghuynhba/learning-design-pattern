@@ -1,12 +1,12 @@
 package com.hbk.examples.MediatorDemo.demo_1.components;
 
-// import com.hbk.examples.MediatorDemo.demo_1.mediator.Mediator;
+import com.hbk.examples.MediatorDemo.demo_1.mediator.Mediator;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class DeleteButton extends JButton implements Component {
-    // private Mediator mediator;
+    private Mediator mediator;
 
     public DeleteButton() {
         super("Del");
@@ -14,13 +14,13 @@ public class DeleteButton extends JButton implements Component {
 
     @Override 
     protected void fireActionPerformed(ActionEvent event) {
-
+        mediator.deleteNote();
     }
 
-    // @Override
-    // void setMediator(Mediator mediator) {
-    //     this.mediator=mediator;
-    // }
+    @Override
+    public void setMediator(Mediator mediator) {
+        this.mediator=mediator;
+    }
 
     @Override
     public String getName() {

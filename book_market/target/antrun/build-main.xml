@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <exec output="/tmp/maven3576318210580969738cli" failOnError="false" executable="/bin/sh">
+      <arg value="-c" />
+      <arg value="/tmp/.sentry-cli15298981737456779263.exe --auth-token ${env.SENTRY_AUTH_TOKEN} info" />
+    </exec>
+  </target>
+</project>
