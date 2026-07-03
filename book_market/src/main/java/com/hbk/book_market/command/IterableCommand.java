@@ -1,8 +1,6 @@
 package com.hbk.book_market.command;
 
-import com.hbk.book_market.BookApplication;
 import com.hbk.book_market.observer.VoidNoReturnObserver;
-import com.hbk.book_market.pool.ConnectionPool;
 import java.lang.reflect.Field;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,7 +9,7 @@ import java.sql.SQLException;
 import java.util.Iterator;
 import lombok.AllArgsConstructor;
 
-public class IterableCommand<E> implements Command<Iterable<E>> {
+public class IterableCommand<E> extends AbstractCommand<Iterable<E>> {
   private Class<E> entityType;
 
   public IterableCommand<E> entityType(Class<E> entityType) {
@@ -20,25 +18,22 @@ public class IterableCommand<E> implements Command<Iterable<E>> {
   }
 
   @Override
-  public Iterable<E> execute() throws Exception {
+  protected PreparedStatement createStatement(Connection connection) throws Exception {
     final String tableName = entityType.getSimpleName();
     final String query = "SELECT * FROM " + tableName + " ORDER BY id DESC";
-    final ConnectionPool connectionPool = BookApplication.getInstance().getConnectionPool();
-    final Connection connection = connectionPool.provide();
-    final PreparedStatement statement = connection.prepareStatement(query);
+    return connection.prepareStatement(query);
+  }
+
+  @Override
+  protected Iterable<E> executeStatement(
+      PreparedStatement statement, VoidNoReturnObserver finishObserver) throws Exception {
     final ResultSet resultSet = statement.executeQuery();
-    return () ->
-        new EntityIterator<E>(
-            entityType,
-            resultSet,
-            () -> {
-              try {
-                statement.close();
-              } catch (SQLException e) {
-                // do nothing
-              }
-              connectionPool.pushBack(connection);
-            });
+    return () -> new EntityIterator<E>(entityType, resultSet, finishObserver);
+  }
+
+  @Override
+  protected boolean closeStatementAsSoonAsPossible() {
+    return false;
   }
 
   @AllArgsConstructor
