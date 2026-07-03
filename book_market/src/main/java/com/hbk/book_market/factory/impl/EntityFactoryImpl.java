@@ -20,9 +20,9 @@ import com.hbk.book_market.factory.impl.CategoryFactoryImpl;
 import com.hbk.book_market.factory.impl.BookFactoryImpl;
 
 public class EntityFactoryImpl implements EntityFactory {
-    private final AuthorFactory authorFactory=new AuthorFactoryImpl();
-    private final CategoryFactory categoryFactory=new CategoryFactoryImpl();
-    private final BookFactory bookFactory=new BookFactoryImpl();
+    private final AuthorFactory authorFactory= new AuthorFactoryImpl();
+    private final CategoryFactory categoryFactory= new CategoryFactoryImpl();
+    private final BookFactory bookFactory= new BookFactoryImpl();
 
     @SuppressWarnings("unchecked")
     @Override
